@@ -162,12 +162,6 @@ a#active {
     margin-top: 200px;
 }
 
-.icon img {
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-    object-position: center;
-}
 
 .quick-link-grid .icon {
     flex: 1 1 100px;
