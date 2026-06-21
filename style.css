@@ -33,6 +33,12 @@ main {
     display: block;
 }
 
+.icon img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    object-position: center;
+}
 
 header, footer {
     background-color: #7F2B0A;
