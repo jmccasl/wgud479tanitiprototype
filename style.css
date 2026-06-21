@@ -217,13 +217,6 @@ a#active {
     border-radius: 10px;
 }
 
-.stacked-cards .half-card img {
-    width: 100%;
-    height: 180px; 
-    object-fit: cover;
-    border-radius: 10px 10px 0 0; 
-}
-
 /* Accommodations Styles */
 
 .card-container {
