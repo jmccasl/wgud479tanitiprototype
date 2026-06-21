@@ -269,7 +269,7 @@ a#active {
 /* Food and Fun Styles */
 .stacked-cards {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 10px;
     justify-items: center;
     gap: 15px;
