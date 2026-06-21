@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Taniti Island Prototype</title>
+    </head>
+    <body style="background-color: blanchedalmond;">
+        <header>
+            <div class="header-top">
+                <div class="logo"><img src="pics/site-logo.png" alt="Taniti Island Logo"></div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="accommodations.html">Accommodations</a></li>
+                        <li><a href="foodandfun.html">Food And Fun</a></li>
+                        <li><a href="transportation.html">Transportation</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a id="active" href="booknow.html" class="nav-link active">Book Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main-booking>
+            <div class="customer-form">
+                <label for="arrival">Arrival Date</label><br>
+                <input type="date" id="arrival" name="arrival"><br>
+                <label for="depart">Dearture Date</label><br>
+                <input type="date" id="depart" name="depart"><br>
+                <label for="guest-num">Number of Guests</label><br>
+                <input type="number" id="guest-num" name="guest-num"><br>
+                <label for="kids-num">Number of Kids</label><br>
+                <input type="number" id="kids-num" name="kids-num"><br>
+                <button class="search-btn">See Details</button>
+            </div>
+            <div class="booking-options">
+                <div class="lodge-card">
+                    <div class="card-image"><img src="pics/booking.jpg"></div>
+                    <div class="booking-info">
+                        <p>Info about place to stay...</p>
+                        <p>Rating: <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <p>Pricing: $98/night</p>
+                        <button class="reserve-now">Reserve Now</button>
+                    </div>
+                </div>
+                <div class="lodge-card">
+                    <div class="card-image"><img src="pics/booking.jpg"></div>
+                    <div class="booking-info">
+                        <p>Info about place to stay...</p>
+                        <p>Rating: <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <p>Pricing: $98/night</p>
+                        <button class="reserve-now">Reserve Now</button>
+                    </div>
+                </div>
+                <div class="lodge-card">
+                    <div class="card-image"><img src="pics/booking.jpg"></div>
+                    <div class="booking-info">
+                        <p>Info about place to stay...</p>
+                        <p>Rating: <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <p>Pricing: $98/night</p>
+                        <button class="reserve-now">Reserve Now</button>
+                    </div>
+                </div>
+                <div class="lodge-card">
+                    <div class="card-image"><img src="pics/booking.jpg"></div>
+                    <div class="lodge-card-img"></div>
+                    <div class="booking-info">
+                        <p>Info about place to stay...</p>
+                        <p>Rating: <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <p>Pricing: $98/night</p>
+                        <button class="reserve-now">Reserve Now</button>
+                    </div>
+                </div>
+            </div>
+        </main-booking>
+        
+        <footer>
+            <p>&copy; 2026 Taniti Island. All rights reserved.</p>
+            <p style="font-size: 14px;">All images used on this prototype are royalty-free and sourced from Flaticon and Adobe.</p>
+        </footer>
+    </body>
+</html>

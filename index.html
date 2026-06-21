@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Taniti Island Prototype</title>
+    </head>
+    <body style="background-color: blanchedalmond;">
+        <header>
+            <div class="header-top">
+                <div class="logo"><img src="pics/site-logo.png" alt="Taniti Island Logo"></div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a id="active" href="index.html" class="nav-link active">Home</a></li>
+                        <li><a href="accommodations.html">Accommodations</a></li>
+                        <li><a href="foodandfun.html">Food And Fun</a></li>
+                        <li><a href="transportation.html">Transportation</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="booknow.html">Book Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="left-content">
+                <h1 style="text-align: center;">Welcome to Taniti!</h1>
+                <p>Enjoy the beautiful beaches and rich culture of Taniti Island! Join us and discover the vibrant and breathtaking culture of our tropical paradise. Whether you crave thrilling adventures, 5-star dining, or relaxation on pristine shores, Taniti has it all.</p>
+                <p>Immerse yourself in lush rainforests teeming with exotic wildlife and hidden waterfalls just waiting to be explored. As the sun sets, experience the magic of our lively night markets and traditional dance performances under the stars. Book your unforgettable getaway today and let the island create memories that will last a lifetime.</p>
+                <div class="quick-link-grid">
+                    <a href="foodandfun.html" class="quick-link-card">
+                        <div class="icon">
+                            <img src="pics/quick-dining.png" alt="Food and Fun Icon"/>
+                        </div>
+                        <p>Find your perfect date night</p>
+                    </a>
+                    <a href="foodandfun.html" class="quick-link-card">
+                        <div class="icon">
+                            <img src="pics/quick-hiking.png" alt="Hiking Icon"/>
+                        </div>
+                        <p>See epic sceneries</p>
+                    </a>
+                    <a href="foodandfun.html" class="quick-link-card">
+                        <div class="icon">
+                            <img src="pics/quick-spa.png" alt="Spa Icon"/>
+                        </div>
+                        <p>Relax and rejuvenate</p>
+                    </a>
+                </div>
+            </section>
+            <section class="right-content">
+                <h2 style="text-align: center;">Book your trip now!</h2>
+                <div class="slide-show-container">
+                    <div class="mySlides taniti-fade">
+                        <img src="pics/slide-1.jpg" style="width:50%">
+                    </div>
+                    <div class="mySlides taniti-fade">
+                        <img src="pics/slide-2.jpg" style="width:50%">
+                    </div>
+                    <div class="mySlides taniti-fade">
+                        <img src="pics/slide-3.jpg" style="width:50%">
+                    </div>
+                </div>
+                <a href="booknow.html" class="cta-button">Explore Packages Now!</a>
+                </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Taniti Island. All rights reserved.</p>
+            <p style="font-size: 14px;">All images used on this prototype are royalty-free and sourced from Floticon and Adobe.</p>
+        </footer>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 5000);
+            }
+        </script>
+    </body>
+</html>

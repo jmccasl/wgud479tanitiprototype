@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Taniti Island Prototype</title>
+    </head>
+    <body style="background-color: blanchedalmond;">
+        <header>
+            <div class="header-top">
+                <div class="logo"><img src="pics/site-logo.png" alt="Taniti Island Logo"></div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="accommodations.html">Accommodations</a></li>
+                        <li><a href="foodandfun.html">Food And Fun</a></li>
+                        <li><a id="active" href="transportation.html" class="nav-link active">Transportation</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="booknow.html">Book Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main-transportation>
+            <div class="transport-left">
+                <div class="long-card">  
+                    <form>
+                        <h2>Ferry Schedule</h2>
+                        <label for="date">Date:</label><br>
+                        <input type="date" id="date" name="date"><br>
+                        <label for="time">Time:</label><br>
+                        <input type="time" id="time" name="time"><br>
+                        <label for="port">Port:</label><br>
+                        <input type="text" id="port" name="port"><br>
+                    </form>
+                    <button>Update Results</button>
+                </div>
+                <div class="long-card">  
+                    <form>
+                        <h2>Local Taxi Service</h2>
+                        <label for="date">Date:</label><br>
+                        <input type="date" id="date" name="date"><br>
+                        <label for="time">Time:</label><br>
+                        <input type="time" id="time" name="time"><br>
+                        <label for="pickup">Pickup Location:</label><br>
+                        <input type="text" id="pickup" name="pickup"><br>
+                    </form>
+                    <button>Update Results</button>
+                </div>
+                <div class="long-card">  
+                    <form>
+                        <h2>Uber/Lyft</h2>
+                        <label for="date">Date:</label><br>
+                        <input type="date" id="date" name="date"><br>
+                        <label for="time">Time:</label><br>
+                        <input type="time" id="time" name="time"><br>
+                        <label for="pickup">Pickup Location:</label><br>
+                        <input type="text" id="pickup" name="pickup"><br>
+                    </form>
+                    <button>Update Results</button>
+                </div>
+                <div class="long-card">  
+                    <form>
+                        <h2>Scooter/Bike Rental</h2>
+                        <label for="date">Date:</label><br>
+                        <input type="date" id="date" name="date"><br>
+                        <label for="time">Time:</label><br>
+                        <input type="time" id="time" name="time"><br>
+                        <label for="pickup">Pickup Location:</label><br>
+                        <input type="text" id="pickup" name="pickup"><br>
+                    </form>
+                    <button>Update Results</button>
+                </div>
+            </div>
+            <div class="transport-right">
+                <div class="map-simulator">
+                    <h2 style="text-align: center;">Island Transportation Map</h2>
+                    <img src="pics/map-sim.png" alt="Map Simulator">
+                </div>
+            </div>
+            </main-transportation>
+        
+        <footer>
+            <p>&copy; 2026 Taniti Island. All rights reserved.</p>
+            <p style="font-size: 14px;">All images used on this prototype are royalty-free and sourced from Floticon and Adobe.</p>
+        </footer>
+    </body>
+</html>
